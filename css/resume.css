@@ -217,3 +217,7 @@ a:hover, a:focus, a:active {
   box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 32px 0px;
   border: none;
 }
+
+.navbar-dark .navbar-toggler {
+    color: #ffffff;
+}
