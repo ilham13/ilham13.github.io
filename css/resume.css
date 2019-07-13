@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #20a0e2;
 }
 
 .dev-icons {
@@ -80,12 +80,12 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #20a0e2;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.05rem;Â
   text-transform: uppercase;
 }
 
@@ -176,17 +176,44 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #20a0e2 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #20a0e2 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #20a0e2;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #20a0e2;
+}
+
+.skills{
+  margin-left:-50px;
+}
+
+.skills li{
+  float: left;
+  padding: 5px 10px;
+  list-style: none;
+  border: 1px solid #20a0e2;
+  background-color: #20a0e2;
+  color: #ffffff;
+  margin:10px;
+  border-radius:5px;
+}
+
+.skills li:hover{
+  background-color: #ffffff;
+  color: #20a0e2;
+  cursor: pointer;
+}
+
+.card{
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 32px 0px;
+  border: none;
 }
